@@ -15,7 +15,11 @@ function App() {
     );
   }
 
-  return <h2>Tours Project Setup</h2>;
+  return (
+    <main>
+      <Tours />
+    </main>
+  );
 }
 
 export default App;
